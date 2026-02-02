@@ -73,15 +73,6 @@ export default function Hero() {
               </a>
 
               <a
-                href="https://www.linkedin.com/in/tomas-cardozo"
-                target="_blank"
-                rel="noreferrer"
-                className="rounded-lg border border-white/15 px-4 py-2 text-sm text-white/80 hover:border-white/30 hover:text-white"
-              >
-                {t("hero.cta.linkedin")}
-              </a>
-
-              <a
                 href="#contact"
                 className="rounded-lg border border-white/15 px-4 py-2 text-sm text-white/80 hover:border-white/30 hover:text-white"
               >
