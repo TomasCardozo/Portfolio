@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark light;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes arrowDown {
+  0%,
+  20% {
+    transform: translate(-50%, 0);
+    opacity: 0.5;
+  }
+  60% {
+    transform: translate(-50%, 10px);
+    opacity: 0.9;
+  }
+  100% {
+    transform: translate(-50%, 0);
+    opacity: 0.5;
+  }
+}

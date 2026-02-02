@@ -1,0 +1,145 @@
+{
+  "nav": {
+    "links": {
+      "home": "Home",
+      "about": "About",
+      "experience": "Experience",
+      "skills": "Skills",
+      "projects": "Projects",
+      "this-website": "Website",
+      "contact": "Contact"
+    },
+    "github": "GitHub"
+  },
+
+  "hero": {
+    "location": "Córdoba, Argentina · Remote",
+    "title": "Junior Full-Stack Developer",
+    "subtitle": "I build full-stack web applications with REST APIs, authentication, and relational databases. I focus on clean, maintainable code and building features that are production-ready from day one.",
+    "cta": {
+      "projects": "View projects",
+      "contact": "Contact me",
+      "linkedin": "LinkedIn",
+      "resume": "Download Resume"
+    }
+  },
+
+  "about": {
+    "title": "About me",
+    "subtitle": "My background, experience, and how I approach software development.",
+    "content": "Hi, I'm Tomas, a junior developer with experience in real-world work environments, including web applications, internal systems, and databases.\n\nI started my career working with PHP and SQL, optimizing queries and maintaining production systems. Today, I’m deepening my knowledge in Java with Spring Boot and React, focused on building modern, well-structured, and maintainable applications.\n\nI feel comfortable working in remote teams, following agile methodologies, and reading and improving existing code step by step. I’m motivated to keep learning and to grow within teams that value technical quality and the real-world impact of software."
+  },
+
+  "experience": {
+    "title": "Experience",
+    "subtitle": "Real roles where I delivered on development, performance, and systems.",
+    "cofarsur": {
+      "company": "Cofarsur",
+      "role": "Full-Stack Developer PHP (Symfony)",
+      "period": "May 2022 – May 2023",
+      "type": "Part-Time · Remote",
+      "bullet": {
+        "b1": "Developed and maintained full-stack web applications using PHP (Symfony), JavaScript, HTML, CSS, and MySQL.",
+        "b2": "Designed and implemented new features and modules based on business requirements.",
+        "b3": "Refactored and fixed legacy code, improving stability and maintainability.",
+        "b4": "Optimized database queries and application performance, reducing response times and improving UX.",
+        "b5": "Worked in an agile environment using Jira (Kanban) and Bitbucket, participating in code reviews and planning.",
+        "b6": "Collaborated with product and internal teams to deliver solutions for employees and external clients.",
+        "b7": "Contributed to code quality improvements through refactoring and best practices."
+      }
+    },
+    "be_innovation": {
+      "company": "Be Innovation Tech",
+      "role": "Programming Analyst",
+      "period": "March 2022 – April 2022",
+      "type": "Part-Time · Hybrid",
+      "bullet": {
+        "b1": "Participated in the migration of data to a new ERP system.",
+        "b2": "Analyzed and optimized complex SQL queries, reducing execution times from hours to seconds.",
+        "b3": "Collaborated with the team to improve data reliability and system performance.",
+        "b4": "Identified performance bottlenecks and proposed optimization strategies."
+      }
+    },
+    "grupo_serin": {
+      "company": "Grupo Serin",
+      "role": "Systems Analyst (IT)",
+      "period": "Dec 2020 – March 2022",
+      "type": "Part-Time · On-site",
+      "bullet": {
+        "b1": "Managed and maintained SQL Server databases (DDL, DML, DCL), supporting business-critical systems.",
+        "b2": "Created reports and data analysis using SQL Server Reporting Services (SSRS).",
+        "b3": "Developed an internal Risk Management System (VB.NET) for the Quality area.",
+        "b4": "Administered Microsoft Dynamics GP at a basic level, supporting users and business processes.",
+        "b5": "Provided basic network administration using MikroTik (routing, configuration, and troubleshooting).",
+        "b6": "Delivered N2 and N3 technical support across multiple business areas.",
+        "b7": "Organized development and support tasks using Kanban and ticket-based workflows."
+      }
+    }
+  },
+
+  "skills": {
+    "title": "Skills",
+    "subtitle": "Main stack and tools I use in real projects.",
+    "groups": {
+      "backend": "Backend",
+      "frontend": "Frontend",
+      "database": "Databases",
+      "tools": "Tools & Workflow",
+      "other": "Other"
+    }
+  },
+
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Some of the projects I've worked on recently.",
+
+    "note-app": {
+      "title": "Note App",
+      "subtitle": "Personal project · Full Stack · REST API + SPA",
+      "description": "Production-ready full-stack notes management system built with Spring Boot and React. The application exposes a RESTful API secured with JWT authentication and supports full note lifecycle management, including creation, categorization, archiving, and filtering. Designed with clean architecture principles, DTO validation, and a containerized setup for consistent local development.",
+      "highlights": {
+        "api": "REST API with validations and DTOs",
+        "auth": "JWT authentication and login/logout flow",
+        "crud": "Notes CRUD + archiving + categories",
+        "frontend": "Frontend with Active/Archived filters"
+      }
+    },
+    "CoderHouse-project": {
+      "title": "Coder House Project",
+      "subtitle": "Personal project · Frontend · Vanilla JS",
+      "description": "Interactive web project developed as the final assignment of the CoderHouse bootcamp, aimed at showcasing a strong and modern use of vanilla JavaScript without relying on frameworks. It features dynamic DOM manipulation, form validation, and functional logic, prioritizing a clear, efficient, and scalable user experience. The project represents a solid technical foundation for further development with technologies such as React.",
+      "highlights": {
+        "dom": "Dynamic DOM manipulation",
+        "ajax": "API consumption with ajax",
+        "forms": "Frontend form validation",
+        "events": "Event handling and logic in pure JS"
+      }
+    },
+    "IUA-project-PHP": {
+      "title": "PHP IUA Project",
+      "subtitle": "Personal project · Full Stack · MVC Architecture",
+      "description": "Web project developed as the final assignment of the PHP bootcamp at the IUA University, aimed at showcasing a strong and modern use of PHP without relying on frameworks. It features MVC architecture, form validation, and functional logic, prioritizing a clear, efficient, and scalable user experience.",
+      "highlights": {
+        "mvc": "MVC architecture (controllers, models, views)",
+        "sql": "SQL script included in /DB",
+        "db": "Local DB with phpMyAdmin"
+      }
+    }
+  },
+
+  "thisWebsite": {
+    "title": "About this website",
+    "subtitle": "This portfolio is also a project.",
+    "cardTitle": "Portfolio website built with React",
+    "description": "A fast, bilingual (EN/ES) portfolio built to present my projects and experience. Designed with reusable sections, a clean UI, and a simple structure that’s easy to maintain and extend.",
+    "cta": "View repository"
+  },
+
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Feel free to reach out for collaborations or just a friendly hello!",
+    "email": "Email me at",
+    "linkedin": "Connect on ",
+    "github": "Check out my "
+  }
+}

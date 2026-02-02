@@ -1,0 +1,146 @@
+{
+  "nav": {
+    "links": {
+      "home": "Home",
+      "about": "Sobre mi",
+      "experience": "Experiencia",
+      "skills": "Skills",
+      "projects": "Proyectos",
+      "this-website": "Este sitio",
+      "contact": "Contacto"
+    },
+    "github": "GitHub"
+  },
+
+  "hero": {
+    "location": "Córdoba, Argentina · Remote",
+    "title": "Desarrollador Full-Stack Junior",
+    "subtitle": "Construyo aplicaciones web full-stack con APIs REST, autenticación y bases de datos relacionales. Me enfoco en código limpio y mantenible, y en construir funcionalidades listas para producción desde el primer día.",
+    "cta": {
+      "projects": "Ver proyectos",
+      "contact": "Contactarme",
+      "linkedin": "LinkedIn",
+      "resume": "Descargar CV"
+    }
+  },
+
+  "about": {
+    "title": "Sobre mí",
+    "subtitle": "Mi formación, experiencia y forma de abordar el desarrollo de software.",
+    "content": "Hola, soy Tomás, un desarrollador junior con experiencia en entornos reales de trabajo, incluyendo aplicaciones web, sistemas internos y bases de datos.\n\nComencé mi carrera trabajando con PHP y SQL, optimizando consultas y manteniendo sistemas en producción. Actualmente estoy profundizando mis conocimientos en Java con Spring Boot y React, enfocado en construir aplicaciones modernas, bien estructuradas y fáciles de mantener.\n\nMe siento cómodo trabajando en equipos remotos, siguiendo metodologías ágiles y leyendo y mejorando código existente paso a paso. Me motiva seguir aprendiendo y crecer dentro de equipos que valoran la calidad técnica y el impacto real del software."
+  },
+
+  "experience": {
+    "title": "Experiencia",
+    "subtitle": "Roles reales donde aporté en desarrollo, performance y sistemas.",
+
+    "cofarsur": {
+      "company": "Cofarsur",
+      "role": "Desarrollador Full-Stack PHP (Symfony)",
+      "period": "May 2022 – May 2023",
+      "type": "Part-Time · Remote",
+      "bullet": {
+        "b1": "Desarrollé y mantuve aplicaciones full-stack usando PHP (Symfony), JavaScript, HTML, CSS y MySQL.",
+        "b2": "Diseñé e implementé nuevas funcionalidades y módulos según requerimientos del negocio.",
+        "b3": "Refactoricé y corregí código legacy, mejorando estabilidad y mantenibilidad.",
+        "b4": "Optimicé queries y performance de la aplicación, reduciendo tiempos de respuesta y mejorando la UX.",
+        "b5": "Trabajé en un entorno ágil con Jira (Kanban) y Bitbucket, participando en code reviews y planificación.",
+        "b6": "Colaboré con producto y equipos internos para entregar soluciones a empleados y clientes externos.",
+        "b7": "Aporté mejoras de calidad de código mediante refactoring y buenas prácticas."
+      }
+    },
+    "be_innovation": {
+      "company": "Be Innovation Tech",
+      "role": "Programming Analyst",
+      "period": "March 2022 – April 2022",
+      "type": "Full-Time · Hibrido",
+      "bullet": {
+        "b1": "Participé en la migración de datos a un nuevo sistema ERP.",
+        "b2": "Analicé y optimicé consultas SQL complejas, reduciendo tiempos de ejecución de horas a segundos.",
+        "b3": "Colaboré con el equipo para mejorar la confiabilidad de los datos y el rendimiento del sistema.",
+        "b4": "Detecté cuellos de botella y propuse estrategias de optimización."
+      }
+    },
+    "grupo_serin": {
+      "company": "Grupo Serin",
+      "role": "Systems Analyst (IT)",
+      "period": "Dec 2020 – March 2022",
+      "type": "Full-Time · Presencial",
+      "bullet": {
+        "b1": "Administré y mantuve bases de datos SQL Server (DDL, DML, DCL) para sistemas críticos del negocio.",
+        "b2": "Generé reportes y análisis de datos usando SSRS.",
+        "b3": "Desarrollé un sistema interno de Gestión de Riesgos (VB.NET) para el área de Calidad.",
+        "b4": "Administré Microsoft Dynamics GP a nivel básico, brindando soporte a usuarios y procesos.",
+        "b5": "Realicé administración básica de red con MikroTik (routing, configuración y troubleshooting).",
+        "b6": "Brindé soporte técnico N2 y N3 en múltiples áreas de negocio.",
+        "b7": "Organicé tareas de desarrollo y soporte con flujos Kanban y tickets."
+      }
+    }
+  },
+
+  "skills": {
+    "title": "Skills",
+    "subtitle": "Stack principal y herramientas que uso en proyectos reales.",
+    "groups": {
+      "backend": "Backend",
+      "frontend": "Frontend",
+      "database": "Base de Datos",
+      "tools": "Herramientas & Workflow",
+      "other": "Otras"
+    }
+  },
+
+  "projects": {
+    "title": "Proyectos",
+    "subtitle": "Algunos de los proyectos en los que he trabajado recientemente.",
+
+    "note-app": {
+      "title": "Aplicación de Notas",
+      "subtitle": "Projecto personal · Full Stack · REST API + SPA",
+      "description": "Sistema de gestión de notas full-stack listo para producción, construido con Spring Boot y React. La aplicación expone una API RESTful asegurada con autenticación JWT y admite la gestión completa del ciclo de vida de las notas, incluyendo creación, categorización, archivado y filtrado. Diseñado con principios de arquitectura limpia, validación de DTO y una configuración containerizada para un desarrollo local consistente.",
+      "highlights": {
+        "api": "API REST con validaciones y DTOs",
+        "auth": "Autenticación JWT y flujo login/logout",
+        "crud": "CRUD de notas + archivado + categorías",
+        "frontend": "Frontend con filtros entre Active/Archived"
+      }
+    },
+    "CoderHouse-project": {
+      "title": "Proyecto CoderHouse",
+      "subtitle": "Proyecto personal · Frontend · Vanilla JS",
+      "description": "Proyecto web interactivo creado como trabajo final del bootcamp de CoderHouse, orientado a mostrar un uso sólido y moderno de JavaScript sin frameworks. Implementa interacción dinámica con el DOM, validación de formularios y lógica funcional, priorizando una experiencia de usuario clara, eficiente y escalable. Representa una base técnica robusta para el desarrollo posterior con tecnologías como React.",
+      "highlights": {
+        "dom": "Manipulación dinámica del DOM",
+        "ajax": "Consumo de APIs con ajax",
+        "forms": "Validación de formularios en frontend",
+        "events": "manejo de eventos y lógica en JS puro"
+      }
+    },
+    "IUA-project-PHP": {
+      "title": "Proyecto PHP IUA",
+      "subtitle": "Proyecto personal · Full Stack · Arquitectura MVC",
+      "description": "Proyecto web desarrollado como trabajo final del bootcamp de PHP de la Universidad IUA, orientado a mostrar un uso sólido y moderno de PHP sin frameworks. Implementa arquitectura MVC, validación de formularios y lógica funcional, priorizando una experiencia de usuario clara, eficiente y escalable.",
+      "highlights": {
+        "mvc": "Arquitectura MVC (controllers, models, views)",
+        "sql": "Script SQL incluido en /DB",
+        "db": "DB local con phpMyAdmin"
+      }
+    }
+  },
+
+  "thisWebsite": {
+    "title": "Este sitio",
+    "subtitle": "El portfolio también es un proyecto.",
+    "cardTitle": "Portfolio desarrollado con React",
+    "description": "Un portfolio rápido y bilingüe (ES/EN) creado para presentar mis proyectos y experiencia. Está diseñado con secciones reutilizables, una UI limpia y una estructura simple de mantener y escalar.",
+    "cta": "Ver repositorio"
+  },
+
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "¿Queres ponerte en contacto conmigo? ¡Me encantaría saber de vos!",
+    "email": "Podes enviarme un correo electrónico a ",
+    "linkedin": "Conectate conmigo en ",
+    "github": "También podes ver mis proyectos en "
+  }
+}
