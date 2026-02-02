@@ -96,7 +96,7 @@
 
     "note-app": {
       "title": "Aplicación de Notas",
-      "subtitle": "Projecto personal · Full Stack · REST API + SPA",
+      "subtitle": "Proyecto personal · Full Stack · REST API + SPA",
       "description": "Sistema de gestión de notas full-stack listo para producción, construido con Spring Boot y React. La aplicación expone una API RESTful asegurada con autenticación JWT y admite la gestión completa del ciclo de vida de las notas, incluyendo creación, categorización, archivado y filtrado. Diseñado con principios de arquitectura limpia, validación de DTO y una configuración containerizada para un desarrollo local consistente.",
       "highlights": {
         "api": "API REST con validaciones y DTOs",
