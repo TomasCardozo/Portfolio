@@ -3,7 +3,9 @@ import { useT } from "@/i18n/useT";
 export default function Hero() {
   const { t, lang } = useT();
   const resumeURL =
-    lang === "es" ? "/cv_Tomas_Cardozo.pdf" : "/resume_Tomas_Cardozo.pdf";
+    lang === "es"
+      ? `${import.meta.env.BASE_URL}cv_Tomas_Cardozo.pdf`
+      : `${import.meta.env.BASE_URL}resume_Tomas_Cardozo.pdf`;
 
   return (
     <main className="mx-auto w-full max-w-5xl px-6">
