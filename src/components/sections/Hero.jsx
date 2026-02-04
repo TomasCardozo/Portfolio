@@ -5,7 +5,7 @@ export default function Hero() {
   const resumeURL =
     lang === "es"
       ? `${import.meta.env.BASE_URL}cvTomas_Cardozo.pdf`
-      : `${import.meta.env.BASE_URL}resumeTomas_Cardozo.pdf`;
+      : `${import.meta.env.BASE_URL}resume_Tomas_Cardozo.pdf`;
 
   return (
     <main className="mx-auto w-full max-w-5xl px-6">
